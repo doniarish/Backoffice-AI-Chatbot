@@ -1,0 +1,50 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (NEVER commit real credentials)
+.env
+
+# SQLite demo database (generated at runtime)
+demo/demo_data.db
+*.db
+*.sqlite
+*.sqlite3
+
+# FAISS index (regenerated at startup)
+*.faiss
+*.index
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# IDE / editor config
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
